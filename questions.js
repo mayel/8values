@@ -1,6 +1,6 @@
 questions = [
     {
-        "question": "Oppression by corporations is more of a concern than oppression by governments.",
+        "question": "Oppression by corporations is just as bad as oppression by governments.",
         "effect": {
             "econ": 10,
             "dipl": 0,
@@ -9,7 +9,7 @@ questions = [
         }
     },
     {
-        "question": "It is necessary for the government to intervene in the economy to protect consumers.",
+        "question": "It is necessary to intervene in the economy to protect consumers.",
         "effect": {
             "econ": 10,
             "dipl": 0,
@@ -27,7 +27,7 @@ questions = [
         }
     },
     {
-        "question": "It is better to maintain a balanced budget than to ensure welfare for all citizens.",
+        "question": "It is more important to maintain a balanced budget than to ensure welfare for all.",
         "effect": {
             "econ": -10,
             "dipl": 0,
@@ -45,15 +45,6 @@ questions = [
         }
     },
     {
-        "question": "International trade is beneficial.",
-        "effect": {
-            "econ": -5,
-            "dipl": 0,
-            "govt": 10,
-            "scty": 0
-        }
-    },
-    {
         "question": "From each according to his ability, to each according to his needs.",
         "effect": {
             "econ": 10,
@@ -63,7 +54,7 @@ questions = [
         }
     },
     {
-        "question": "It would be best if social programs were abolished in favor of private charity.",
+        "question": "It would be best if we had no social programs. People can give to charity instead.",
         "effect": {
             "econ": -10,
             "dipl": 0,
@@ -72,7 +63,7 @@ questions = [
         }
     },
     {
-        "question": "Taxes should be increased on the rich to provide for the poor.",
+        "question": "The rich should share their wealth to provide for the poor.",
         "effect": {
             "econ": 10,
             "dipl": 0,
@@ -99,7 +90,7 @@ questions = [
         }
     },
     {
-        "question": "Excessive government intervention is a threat to the economy.",
+        "question": "Excessive intervention is a threat to the economy.",
         "effect": {
             "econ": -10,
             "dipl": 0,
@@ -108,7 +99,7 @@ questions = [
         }
     },
     {
-        "question": "Those with a greater ability to pay should receive better healthcare.",
+        "question": "Those with who can pay more should receive better healthcare.",
         "effect": {
             "econ": -10,
             "dipl": 0,
@@ -126,20 +117,11 @@ questions = [
         }
     },
     {
-        "question": "The means of production should belong to the workers who use them.",
+        "question": "The means of production should belong to the workers.",
         "effect": {
             "econ": 10,
             "dipl": 0,
             "govt": 0,
-            "scty": 0
-        }
-    },
-    {
-        "question": "The United Nations should be abolished.",
-        "effect": {
-            "econ": 0,
-            "dipl": -10,
-            "govt": -5,
             "scty": 0
         }
     },
@@ -153,29 +135,11 @@ questions = [
         }
     },
     {
-        "question": "I support regional unions, such as the European Union.",
-        "effect": {
-            "econ": -5,
-            "dipl": 10,
-            "govt": 10,
-            "scty": 5
-        }
-    },
-    {
         "question": "It is important to maintain our national sovereignty.",
         "effect": {
             "econ": 0,
             "dipl": -10,
             "govt": -5,
-            "scty": 0
-        }
-    },
-    {
-        "question": "A united world government would be beneficial to mankind.",
-        "effect": {
-            "econ": 0,
-            "dipl": 10,
-            "govt": 0,
             "scty": 0
         }
     },
@@ -189,7 +153,7 @@ questions = [
         }
     },
     {
-        "question": "Wars do not need to be justified to other countries.",
+        "question": "We do not need to justify our wars to other countries.",
         "effect": {
             "econ": 0,
             "dipl": -10,
@@ -225,10 +189,10 @@ questions = [
         }
     },
     {
-        "question": "Research should be conducted on an international scale.",
+        "question": "Researchers from around the world should cooperate.",
         "effect": {
             "econ": 0,
-            "dipl": -10,
+            "dipl": 10,
             "govt": 0,
             "scty": 10
         }
@@ -243,10 +207,10 @@ questions = [
         }
     },
     {
-        "question": "Even when protesting an authoritarian government, violence is not acceptable.",
+        "question": "It is acceptable to protest an authoritarian government in another country.",
         "effect": {
             "econ": 0,
-            "dipl": 5,
+            "dipl": 10,
             "govt": -5,
             "scty": 0
         }
@@ -261,7 +225,7 @@ questions = [
         }
     },
     {
-        "question": "Our nation's values should be spread as much as possible.",
+        "question": "My nation's values should be spread as much as possible.",
         "effect": {
             "econ": 0,
             "dipl": -10,
@@ -279,7 +243,7 @@ questions = [
         }
     },
     {
-        "question": "The general populace makes poor decisions.",
+        "question": "The people usually makes poor decisions.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -297,7 +261,7 @@ questions = [
         }
     },
     {
-        "question": "The sacrifice of some civil liberties is necessary to protect us from acts of terrorism.",
+        "question": "Sacrificing civil liberties is necessary to protect us from terrorism.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -306,7 +270,7 @@ questions = [
         }
     },
     {
-        "question": "Government surveillance is necessary in the modern world.",
+        "question": "Government surveillance is necessary in the world we live in.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -342,7 +306,7 @@ questions = [
         }
     },
     {
-        "question": "A hierarchical state is best.",
+        "question": "It is best to have a state and strong governement.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -351,7 +315,7 @@ questions = [
         }
     },
     {
-        "question": "It is important that the government follows the majority opinion, even if it is wrong.",
+        "question": "The government should follow the people's wishes, even if it is wrong.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -378,7 +342,7 @@ questions = [
         }
     },
     {
-        "question": "Environmental regulations are essential.",
+        "question": "Protecting the environment is essential.",
         "effect": {
             "econ": 5,
             "dipl": 0,
@@ -387,7 +351,7 @@ questions = [
         }
     },
     {
-        "question": "A better world will come from automation, science, and technology.",
+        "question": "Automation, science, and technology can give us a better world.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -396,7 +360,7 @@ questions = [
         }
     },
     {
-        "question": "Children should be educated in religious or traditional values.",
+        "question": "School should teach children religious and/or traditional values.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -423,7 +387,7 @@ questions = [
         }
     },
     {
-        "question": "Churches should be taxed the same way other institutions are taxed.",
+        "question": "Churches should be taxed the same way any other institutions are taxed.",
         "effect": {
             "econ": 5,
             "dipl": 0,
@@ -450,7 +414,7 @@ questions = [
         }
     },
     {
-        "question": "Society was better many years ago than it is now.",
+        "question": "Society was better many years ago, compared to now.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -522,7 +486,7 @@ questions = [
         }
     },
     {
-        "question": "If we accept migrants at all, it is important that they assimilate into our culture.",
+        "question": "If we accept migrants, it is important that they assimilate into our culture.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -549,12 +513,12 @@ questions = [
         }
     },
     {
-        "question": "I support single-payer, universal healthcare.",
+        "question": "I support universal healthcare.",
         "effect": {
             "econ": 10,
             "dipl": 0,
             "govt": 0,
-            "scty": 0
+            "scty": 5
         }
     },
     {
@@ -576,24 +540,6 @@ questions = [
         }
     },
     {
-        "question": "To chase progress at all costs is dangerous.",
-        "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": 0,
-            "scty": -10
-        }
-    },
-    {
-        "question": "Genetic modification is a force for good, even on humans.",
-        "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": 0,
-            "scty": 10
-        }
-    },
-    {
         "question": "We should open our borders to immigration.",
         "effect": {
             "econ": 0,
@@ -603,9 +549,9 @@ questions = [
         }
     },
     {
-        "question": "Governments should be as concerned about foreign citizens as they are about those within their borders.",
+        "question": "We should be as concerned about foreigners as we are about fellow citizens.",
         "effect": {
-            "econ": 10,
+            "econ": 5,
             "dipl": 10,
             "govt": 0,
             "scty": 0
@@ -621,7 +567,7 @@ questions = [
         }
     },
     {
-        "question": "It is important that we further my group's goals above all others.",
+        "question": "The goals goals of my country, culture, and/or business are more important than all others.",
         "effect": {
             "econ": -10,
             "dipl": -10,

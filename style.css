@@ -25,29 +25,28 @@ p.value-description {
     margin-left: 20pt;
 }
 p.question {
-    margin: 16pt auto;
+    margin: 12pt auto;
     color: #333333;
     font-family: 'Montserrat', sans-serif;
     font-weight: normal;
     width: 70%;
     min-width: 500pt;
-    min-height: 144pt;
+    min-height: 100pt;
     background-color: #eeeeee;
-    padding: 16pt;
+    padding: 14pt;
     border-radius: 16pt;
-    font-size: 36pt;
+    font-size: 32pt;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-
 }
 h1 {
     color: #222222;
     font-family: 'Montserrat', sans-serif;
-    font-size: 72pt;
+    font-size: 54pt;
+    line-height: 54pt;
     text-align: center;
-    line-height: 72pt;
     margin-top: 0pt;
     margin-bottom: 0pt;
 }
@@ -58,6 +57,7 @@ h2 {
     line-height: 36pt;
     margin-top: 12pt;
     margin-bottom: 0pt;
+    text-align: center;
 }
 li {
     font-size: 16pt;
@@ -116,6 +116,7 @@ div.axis {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 25px;
 }
 div.bar {
     height: 36pt;
@@ -155,7 +156,7 @@ div.liberty {
     border-right-style: solid;
 }
 div.authority {
-    background-color: #3f51b5;
+    background-color: hsl(230, 48%, 60%);
     text-align: right;
     border-left-style: solid;
 }
@@ -170,7 +171,7 @@ div.might {
     border-right-style: solid;
 }
 div.progress {
-    background-color: #9c27b0;
+    background-color: hsl(290, 63%, 60%);
     text-align: right;
     border-left-style: solid;
 }
@@ -182,6 +183,9 @@ div.tradition {
 span.weight-300 {
     font-weight: 300;
 }
+span.weight-bold {
+    font-weight: bold;
+}
 canvas {
     border-color: #444444;
     border-style: solid;
@@ -191,4 +195,16 @@ canvas {
     margin: 8pt;
     margin-left: auto;
     margin-right: auto;
+}
+
+#question-number {
+	font-size: 24pt;
+}
+
+.values-describe div.bar {
+    height: 58px;
+}
+.values-describe div.text-wrapper{
+	font-size: 1em;
+	line-height: 1em;
 }
