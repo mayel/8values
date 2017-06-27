@@ -1,2 +1,4 @@
-# 8values.github.io
-The 8values Political Quiz measures individuals' political values, including Equality, Might, Liberty, Tradition, Wealth, Peace, Authority, and Progress.
+# Polytica
+The Polytica Quiz measures individuals' political values.
+
+Forked from 8values.github.io
