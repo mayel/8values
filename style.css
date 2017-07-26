@@ -1,17 +1,16 @@
 html {
-    background-color: #bbbbbb;
     padding: 0px;
+    background-color: #eeeeee;
 }
 body {
     width: 80%;
     min-height: calc(100vh - 4em);
     margin: 0 auto;
     padding: 2em;
-    background-color: #dddddd;
-    border-color: #eeeeee;
-    border-left-style: solid;
-    border-right-style: solid;
-    border-width: 20px;
+    background-color: hsl(205, 89%, 90%);
+}
+hr {
+	margin: 20pt 0;
 }
 p {
     color: #444444;
@@ -55,8 +54,8 @@ h2 {
     font-family: 'Montserrat', sans-serif;
     font-size: 36pt;
     line-height: 36pt;
-    margin-top: 12pt;
-    margin-bottom: 0pt;
+    margin-top: 15pt;
+    margin-bottom: 10pt;
     text-align: center;
 }
 li {
