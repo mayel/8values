@@ -567,7 +567,7 @@ questions = [
         }
     },
     {
-        "question": "The goals goals of my country, culture, and/or business are more important than all others.",
+        "question": "The goals of my country, culture, and/or business are more important than all others.",
         "effect": {
             "econ": -10,
             "dipl": -10,
